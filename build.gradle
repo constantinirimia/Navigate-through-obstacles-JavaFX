@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+allprojects {
+    wrapper {
+        gradleVersion = '5.6.2'
+    }
+}
+
+group 'neiu.420.2020'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+javafx {
+    modules = [ 'javafx.controls' ]
+}
+
+mainClassName = 'MoveCircleDemo'
+
