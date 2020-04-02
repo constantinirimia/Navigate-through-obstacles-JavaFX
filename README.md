@@ -7,3 +7,8 @@ If the user hits an obstacle or goes out of the grid, the program is protected b
 
 
 The rules of the game can be accessed by clicking the Rules- button- on the pop up.
+
+
+Created by :+1:  ***@Constantin Irimia***
+
+LinkedIn: https://www.linkedin.com/in/constantin-irimia-0294ab112/
